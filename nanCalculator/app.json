@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "nanCalculator",
+    "slug": "nanCalculator",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/nanicon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/nanlaunchscreen.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#1e1e1e"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/nanicon.png",
+        "backgroundColor": "#1e1e1e"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.anonymous.nanCalculator"
+    },
+    "web": {
+      "favicon": "./assets/nanicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
